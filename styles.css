@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+    
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container{
+    text-align: center;
+    margin-top: 4rem;
+}
+table{
+    margin: auto;
+}
+
+h1{
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+input{
+    all: unset;
+    background: rgba(255, 255, 255, 0.295);
+    border: 1px solid rgba(255, 255, 255, 0.295);
+    border-radius: 21px;
+    font-size: 34px;
+    text-align: right;
+    width: 260px;
+    color: #fff;
+    padding: 10px;
+}
+button{
+    all: unset;
+    background: rgba(255, 255, 255, 0.295);
+    border: 1px solid rgba(255, 255, 255, 0.295);
+    border-radius: 20px;
+    font-size: 25px;
+    padding: 9px 20px;
+    margin: 5px;
+    font-weight: 600;
+    color: #ffffffd2;
+    cursor: pointer;
+    
+}
+
+button:hover{
+    background: rgba(168, 159, 159, 0.507);
+}
+.calculator{
+    padding: 23px;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    -webkit-box-shadow: 9px 11px 38px 0px rgba(0,0,0,0.40);
+    -moz-box-shadow: 9px 11px 38px 0px rgba(0,0,0,0.40);
+    box-shadow: 9px 11px 38px 0px rgba(0,0,0,0.40);
+
+}
